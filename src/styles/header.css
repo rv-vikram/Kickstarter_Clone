@@ -1,0 +1,57 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #037362;
+    transition: all 0.10s linear;
+}
+
+nav#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding: 1.7% 2%;
+    font-size: 14px;
+    line-height: 21px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+nav div#link_wrapper{
+    /* border: 1px solid blue; */
+    width: 13%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div#logo_wrapper{
+    width: 12%;
+}
+
+#logo_wrapper img{
+    width: 100%;
+}
+
+nav div#login_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid; */
+    width: 9%;
+}
+
+#login_wrapper #search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 50%;
+}
+
+#search:hover{
+    color: #037362;
+    transition: all 0.10s linear;
+}
