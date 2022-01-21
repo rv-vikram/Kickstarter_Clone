@@ -1,0 +1,24 @@
+<svg version="1.1" viewBox="0 0 18 17.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                            <g>
+
+                                                <polygon class="audio-indicator-bar" points="0,0 2,0 2,11.5 2,17.2 0,17.2">
+                                                    <animate attributeName="points" begin="0s" calcMode="spline" dur="1.2s" keySplines="0.18 0.01 0.37 0.99;0.18 0.01 0.37 0.99;0.18 0.01 0.37 0.99" keyTimes="0; 0.3; 0.9; 1" repeatCount="indefinite" values="0,0 2,0 2,11.5 2,17.2 0,17.2;0,2.6 2,2.6 2,8.2 2,17.2 0,17.2;0,12.1 2,12.1 2,14 2,17.2 0,17.2;0,0 2,0 2,11.5 2,17.2 0,17.2"></animate>
+                                                </polygon>
+
+                                                <polygon class="audio-indicator-bar" points="4,3.9 6,3.9 6,8.6 6,17.2 4,17.2">
+                                                    <animate attributeName="points" begin="0s" calcMode="spline" dur="1.2s" keySplines="0.18 0.01 0.37 0.99;0.18 0.01 0.37 0.99;0.18 0.01 0.37 0.99" keyTimes="0; 0.2; 0.6; 1" repeatCount="indefinite" values="4,3.9 6,3.9 6,8.6 6,17.2 4,17.2;4,10.6 6,10.6 6,12.9 6,17.2 4,17.2;4,6.4 6,6.4 6,10.2 6,17.2 4,17.2;4,3.9 6,3.9 6,8.6 6,17.2 4,17.2"></animate>
+                                                </polygon>
+
+                                                <polygon class="audio-indicator-bar" points="8,7 10,7 10,8.3 10,17.2 8,17.2">
+                                                    <animate attributeName="points" begin="0s" calcMode="spline" dur="1.2s" keySplines="0.18 0.01 0.37 0.99;0.18 0.01 0.37 0.99;0.18 0.01 0.37 0.99" keyTimes="0; 0.3; 0.5; 1" repeatCount="indefinite" values="8,7 10,7 10,8.3 10,17.2 8,17.2;8,13.9 10,13.9 10,14.3 10,17.2 8,17.2;8,0 10,0 10,2.3 10,17.2 8,17.2;8,7 10,7 10,8.3 10,17.2 8,17.2"></animate>
+                                                </polygon>
+
+                                                <polygon class="audio-indicator-bar" points="12,0 14,0 14,4.3 14,17.2 12,17.2">
+                                                    <animate attributeName="points" begin="0s" calcMode="spline" dur="1.2s" keySplines="0.18 0.01 0.37 0.99;0.18 0.01 0.37 0.99;0.18 0.01 0.37 0.99" keyTimes="0; 0.3; 0.9; 1" repeatCount="indefinite" values="12,0 14,0 14,4.3 14,17.2 12,17.2;12,6.1 14,6.1 14,8.9 14,17.2 12,17.2;12,10.6 14,10.6 14,12.2 14,17.2 12,17.2;12,0 14,0 14,4.3 14,17.2 12,17.2"></animate>
+                                                </polygon>
+
+                                                <polygon class="audio-indicator-bar" points="16,1.9 18,1.9 18,3.9 18,17.2 16,17.2">
+                                                    <animate attributeName="points" begin="0s" calcMode="spline" dur="1.2s" keySplines="0.18 0.01 0.37 0.99;0.18 0.01 0.37 0.99;0.18 0.01 0.37 0.99" keyTimes="0; 0.4; 0.6; 1" repeatCount="indefinite" values="16,1.9 18,1.9 18,3.9 18,17.2 16,17.2;16,8.6 18,8.6 18,9.7 18,17.2 16,17.2;16,16.6 18,16.6 18,9.7 18,17.2 16,17.2;16,1.9 18,1.9 18,3.9 18,17.2 16,17.2"></animate>
+                                                </polygon>
+                                            </g>
+                                        </svg>
