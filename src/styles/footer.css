@@ -1,0 +1,111 @@
+footer{
+    border-bottom: 1px solid #f0f0f0;
+    padding: 22px 0 0 0;
+    background: transparent url("https://ksr-static.imgix.net/c51lnrg9-doodle_continue.png?ixlib=rb-2.1.0&auto=compress%2Cformat&w=1000&fit=min&s=dc34091fa7d24f5d676e0e0201337f9b") right bottom/500px no-repeat;
+}
+
+footer #menu_wrapper{
+    /* border: 1px solid red; */
+    /* background-color: lightgray; */
+    display: flex;
+    justify-content: center;
+    margin: 0 140px;
+}
+
+#menu_wrapper > div{
+    width: 26%;
+    padding: 0 18px;
+    box-sizing: border-box;
+}
+
+#menu_wrapper div ul{
+    list-style: none;
+    padding: 0;
+}
+
+#menu_wrapper div ul li{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: rgb(40, 40, 40);
+}
+
+#menu_wrapper div ul li:hover{
+    text-decoration: underline;
+    color: #037362;
+}
+
+#menu_wrapper div h3.menuHeading{
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #282828;
+}
+
+#socialIcon_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid; */
+    padding: 4% 0%;
+    margin: 0 140px;
+}
+
+#socialIcon_wrapper #left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+    /* border: 1px solid blue; */
+}
+
+#socialIcon_wrapper #left img{
+    width: 100%;
+    height: 100%;
+}
+
+#left #social_copyright{
+    width: 13%;
+    height: 20px;
+}
+
+#left span{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #282828;
+}
+
+#socialIcon_wrapper #right{
+    /* border: 1px solid blue; */
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#right i:hover {
+    cursor: pointer;
+}
+
+footer hr{
+    border-top: 2px solid #f0f0f0;
+    border-bottom: 0;
+}
+
+#footer_menuSection{
+    /* border: 1px solid; */
+    display: flex;
+    gap: 2%;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    padding: 1.5% 0;
+    margin: 0 140px;
+}
+
+#footer_menuSection span:hover{
+    text-decoration: underline;
+    color: #037362;
+    cursor: pointer;
+}

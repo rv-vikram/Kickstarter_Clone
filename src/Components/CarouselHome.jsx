@@ -1,6 +1,6 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import "../Styles/CarouselHome.css";
+import "../styles/CarouselHome.css";
 
 export function CarouselCard() {
   // ========================================
@@ -60,7 +60,7 @@ export function CarouselCard() {
           <div className="carausel_text">
             <h3>The BitterSweet Review</h3>
             <p>
-            A Literary Magazine for Queers & Their Friends
+              A Literary Magazine for Queers & Their Friends
             </p>
             <span>By Benoit Loiseau</span>
           </div>
@@ -76,7 +76,7 @@ export function CarouselCard() {
           <div className="carausel_text">
             <h3>Emily wants a hardcover!</h3>
             <p>
-            Pre-order quiet fantasy novel Night Ivy by E.D.E. Bell in high-quality hardcover. (Magic, dragons, queer, vegan, biconic? Totally!)
+              Pre-order quiet fantasy novel Night Ivy by E.D.E. Bell in high-quality hardcover. (Magic, dragons, queer, vegan, biconic? Totally!)
             </p>
             <span>By Atthis Arts</span>
           </div>
@@ -92,7 +92,7 @@ export function CarouselCard() {
           <div className="carausel_text">
             <h3>Zine100: How Not to Be Colonized By Outreach Programs</h3>
             <p>
-            A how-to, heads-up, do-it-right zine on working with people who offer you stuff.
+              A how-to, heads-up, do-it-right zine on working with people who offer you stuff.
             </p>
             <span>By Stephanie Nina Pitsirilos</span>
           </div>
@@ -108,7 +108,7 @@ export function CarouselCard() {
           <div className="carausel_text">
             <h3>Surrounded by Love: A children's book on open adoption</h3>
             <p>
-            Surrounded by Love is written by an adoptee and adoptive parent.
+              Surrounded by Love is written by an adoptee and adoptive parent.
             </p>
             <span>By Allison Olson</span>
           </div>
@@ -124,7 +124,7 @@ export function CarouselCard() {
           <div className="carausel_text">
             <h3>MAKE 100: Detailed Dragon Paintings + Limited Edition Printsr</h3>
             <p>
-            100 custom dragons will be made with different commission tiers and dragon-type options. You select the type of dragon you want!
+              100 custom dragons will be made with different commission tiers and dragon-type options. You select the type of dragon you want!
               Kidwell
             </p>
             <span>By Anthony Christou</span>
@@ -155,7 +155,7 @@ export function CarouselCard() {
           <div className="carausel_text">
             <h3>Marvel Zombies - A Zombicide Game</h3>
             <p>
-            The hunger takes hold after the Marvel Universe has been turned into Zombies! Get ready for a Zombicide campaign of epic proportions.
+              The hunger takes hold after the Marvel Universe has been turned into Zombies! Get ready for a Zombicide campaign of epic proportions.
             </p>
             <span>By CMON</span>
           </div>
@@ -185,12 +185,12 @@ export function CarouselCard() {
           <div className="carausel_text">
             <h3>MAKE 100: The Lottery: A Steamy Billionaire Romance Book Box</h3>
             <p>
-            When fate throws them together, not even the end of the world can keep them apart. The future of billionaire romance is in space!
+              When fate throws them together, not even the end of the world can keep them apart. The future of billionaire romance is in space!
             </p>
             <span>By Karpov Kinrade</span>
           </div>
         </div>
       </Carousel>
-      </>
+    </>
   );
 }
