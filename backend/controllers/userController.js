@@ -1,6 +1,7 @@
 const catchAsyncErrors = require("../middlewares/catchAsyncErrors");
 const User = require("../models/userModel");
 const sendToken = require("../utils/generateToken");
+const ErrorHandler = require("../utils/errorHandler");
 
 const registerUser = catchAsyncErrors(async (req, res, next) => {
   const user = await User.create(req.body);
@@ -15,7 +16,7 @@ const loginUser = catchAsyncErrors(async (req, res, next) => {
     return next(new ErrorHandler("Please enter email and password", 400));
   }
 
-  const user = await User.findOne({ email }).select("+password");
+  const user = await User.findOne({ email });
 
   if (!user) {
     return next(new ErrorHandler("Invalid email or password", 401));
