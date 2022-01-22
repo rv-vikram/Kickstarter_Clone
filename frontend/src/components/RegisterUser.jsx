@@ -50,7 +50,7 @@ export const RegisterUser = () => {
         <div className="container">
           <div className="main-container">
             <div className="container1">
-              Have an account? <Link to="/loign">Log in</Link>
+              Have an account? <Link to="/login">Log in</Link>
             </div>
             <div className="container2">
               <p>Sign up</p>

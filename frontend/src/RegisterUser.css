@@ -34,6 +34,10 @@
   width: 92%;
   line-height: 17px;
   margin-bottom: 18px;
+  outline: none;
+}
+.input-box:focus {
+  border-color: #015738;
 }
 
 .checkbox-div {
