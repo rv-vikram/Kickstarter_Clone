@@ -3,12 +3,15 @@
 }
 .container {
   background-color: #f0f0f0;
+  border: 1px solid transparent;
+  /* margin: 4%; */
 }
 .main-container {
   background-color: #ffffff;
   width: 400px;
-  margin: auto;
+  margin: 100px auto;
   border: 1px solid #f1eeea;
+  /* padding: 4%; */
 }
 .container1 {
   padding: 15px;

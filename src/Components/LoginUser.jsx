@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { ProgressContext } from "../context/ProgressContext";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
+import { useNavigate } from "react-router";
 
 const initState = {
   name: "",
@@ -21,12 +22,14 @@ export const LoginUser = () => {
     setFormData({ ...formData, [name]: value });
   };
 
+  const navigate = useNavigate();
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log(formData);
     const result = await getData();
     if (result.status === "success") {
       auth.toggleAuth();
+      navigate("/");
       localStorage.setItem("token", JSON.stringify(result.token));
       setError(null);
     } else {
@@ -137,7 +140,6 @@ export const LoginUser = () => {
         </div>
       </div>
       <Footer />
-
     </>
   );
 };
