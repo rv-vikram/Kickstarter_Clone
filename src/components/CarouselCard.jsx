@@ -1,7 +1,7 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "../styles/carouselCard.css";
-
+import { Link } from "react-router-dom";
 export function CarouselCard() {
   // ========================================
   // breakpoints for carousel
@@ -127,7 +127,9 @@ export function CarouselCard() {
           </div>
           <div className="hr"></div>
           <div className="carausel_text">
-            <h3>Ocean Filibuster</h3>
+            <Link to="/arts/details">
+              <h3>Ocean Filibuster</h3>
+            </Link>
             <p>
               A genre-crashing music theater experience featuring Jennifer
               Kidwell

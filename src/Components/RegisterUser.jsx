@@ -1,6 +1,9 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import "../RegisterUser.css";
 import { Link } from "react-router-dom";
+import { Header } from "./Header";
+import { Footer } from "./Footer";
+import { ProgressContext } from "../context/ProgressContext";
 
 const initState = {
   name: "",
@@ -15,6 +18,8 @@ export const RegisterUser = () => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
+
+  const auth = useContext(ProgressContext);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -47,6 +52,7 @@ export const RegisterUser = () => {
   if (error) {
     return (
       <>
+        <Header />
         <div className="container">
           <div className="main-container">
             <div className="container1">
@@ -104,12 +110,14 @@ export const RegisterUser = () => {
             </div>
           </div>
         </div>
+        <Footer />
       </>
     );
   }
 
   return (
     <>
+      <Header />
       <div className="container">
         <div className="main-container">
           <div className="container1">
@@ -167,6 +175,7 @@ export const RegisterUser = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
