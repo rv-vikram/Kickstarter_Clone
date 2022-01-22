@@ -1,13 +1,13 @@
 
-import { Home } from "./components/Home"
-import { Nav } from './components/project/Nav';
+import { Home } from "./Components/Home"
+import { Nav } from './Components/project/Nav';
 import { GlobalStyle } from './globalstyles';
-import { Project } from './components/project/Project';
-import { Steps } from './components/project/Steps';
+import { Project } from './Components/project/Project';
+import { Steps } from './Components/project/Steps';
 
 import { Route, Routes } from 'react-router-dom';
-import { Art } from './components/Art';
-import { Details } from "./components/Details";
+import { Art } from './Components/Art';
+import { Details } from "./Components/Details";
 
 function App() {
   return (

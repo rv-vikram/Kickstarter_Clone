@@ -622,13 +622,13 @@ div#creatorsCorner_section{
     line-height: 18px;
     font-weight: 700;
     color: #656969;
-   margin-right: 72%;
+   margin-left: 5%;
 }
 #makeof {
     display: grid;
     grid-template-columns: 22% 22% 22% 22%;
     gap: 1%;
- margin-left: 10%;
+ margin-left: 5%;
 
 }
 #makeof div {
