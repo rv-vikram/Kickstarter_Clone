@@ -1,4 +1,4 @@
-import "../Styles/art.css";
+import "../styles/art.css";
 import { Navbar } from "./Navbar";
 import { Footer } from "./Footer"
 import { CarouselCard } from "./CarouselCard";

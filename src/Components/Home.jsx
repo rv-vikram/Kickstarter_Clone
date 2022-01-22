@@ -1,4 +1,4 @@
-import "../Styles/Home.css"
+import "../styles/Home.css"
 import { CarouselCard } from "./CarouselHome";
 import { Footer } from "./Footer";
 import { Header } from "./Header";

@@ -1,6 +1,6 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import "../Styles/CarouselHome.css";
+import "../styles/CarouselHome.css";
 
 export function CarouselCard() {
   // ========================================
