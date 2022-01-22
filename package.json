@@ -1,5 +1,5 @@
 {
-  "name": "kikstarter",
+  "name": "kickstarter",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,6 +14,8 @@
     "styled-components": "^5.3.3",
     "react-redux": "^7.2.6",
     "redux": "^4.1.2",
+    "bootstrap": "^5.1.3",
+    "react-dropdown-select": "^4.8.2",
     "web-vitals": "^2.1.3"
   },
   "scripts": {

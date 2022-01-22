@@ -5,7 +5,7 @@ export function Navbar() {
   return (
     <nav id="navbar">
       <div>
-          <Link to={"/arts"}>Arts</Link>
+        <Link to={"/arts"}>Arts</Link>
         <a href="www.google.com">Comics & Illustration</a>
         <a href="www.google.com">Design & Tech</a>
         <a href="www.google.com">Film</a>

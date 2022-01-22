@@ -1,12 +1,15 @@
 import "../styles/Home.css"
 import { CarouselCard } from "./CarouselHome";
 import { Footer } from "./Footer";
+import { Header } from "./Header";
 import { Navbar } from "./Navbar";
 
 export const Home = () => {
 
   return (
     <>
+      <Header />
+      <Navbar />
       <div>
         <h1 className="cre">Creative work shows us what’s possible.<br />
           Help fund it here.</h1>

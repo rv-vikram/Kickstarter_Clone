@@ -1,7 +1,8 @@
 import "../styles/art.css";
 import { Navbar } from "./Navbar";
-import {Footer} from "./Footer"
+import { Footer } from "./Footer"
 import { CarouselCard } from "./CarouselCard";
+import { Header } from "./Header";
 
 export function Art() {
   return (
@@ -9,7 +10,8 @@ export function Art() {
       {/* ========================================= */}
       {/* Featured Project Section */}
       {/* ========================================= */}
-
+      <Header />
+      <Navbar />
       <section id="art">
         <div id="arts_1">
           <h3>Arts</h3>
@@ -344,7 +346,7 @@ export function Art() {
       {/* ========================================= */}
 
       <Footer />
-      
+
     </>
   );
 }
