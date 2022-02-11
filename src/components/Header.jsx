@@ -5,7 +5,7 @@ import "../styles/header.css";
 
 export function Header() {
   const auth = useContext(ProgressContext);
-  console.log(auth);
+  // console.log(auth);
   return (
     <nav id="header">
       <div id="link_wrapper">
