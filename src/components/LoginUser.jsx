@@ -39,7 +39,7 @@ export const LoginUser = () => {
   };
 
   const getData = async () => {
-    let res = await fetch("http://localhost:5001/login", {
+    let res = await fetch("https://kickstarterclone123.herokuapp.com/login", {
       method: "POST",
       body: JSON.stringify(formData),
       headers: {
