@@ -1,9 +1,10 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import "../RegisterUser.css";
 import { Link } from "react-router-dom";
+import { ProgressContext } from "../context/ProgressContext";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
-// import { ProgressContext } from "../context/ProgressContext";
+import { useNavigate } from "react-router";
 
 const initState = {
   name: "",
@@ -11,21 +12,24 @@ const initState = {
   password: "",
 };
 
-export const RegisterUser = () => {
+export const LoginUser = () => {
   const [formData, setFormData] = useState(initState);
+
+  const auth = useContext(ProgressContext);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
 
-  // const auth = useContext(ProgressContext);
-
+  const navigate = useNavigate();
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log(formData);
     const result = await getData();
     if (result.status === "success") {
+      auth.toggleAuth();
+      navigate("/");
       localStorage.setItem("token", JSON.stringify(result.token));
       setError(null);
     } else {
@@ -35,7 +39,7 @@ export const RegisterUser = () => {
   };
 
   const getData = async () => {
-    let res = await fetch("https://kickstarterclone123.herokuapp.com/register", {
+    let res = await fetch("https://kickstarterclone123.herokuapp.com/login", {
       method: "POST",
       body: JSON.stringify(formData),
       headers: {
@@ -55,21 +59,11 @@ export const RegisterUser = () => {
         <Header />
         <div className="container">
           <div className="main-container">
-            <div className="container1">
-              Have an account? <Link to="/login">Log in</Link>
-            </div>
             <div className="container2">
-              <p>Sign up</p>
+              <p>Log in</p>
               <p className="warning">{error}</p>
+
               <form action="" onSubmit={handleSubmit}>
-                <input
-                  type="text"
-                  placeholder="Name"
-                  className="input-box"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                />
                 <input
                   type="text"
                   placeholder="Email"
@@ -86,27 +80,18 @@ export const RegisterUser = () => {
                   value={formData.password}
                   onChange={handleChange}
                 />
-                <div className="checkbox-div">
-                  <input type="checkbox" name="check_box1" id="checkbox1" />
-                  <label htmlFor="checkbox1">
-                    Send me a weekly mix of handpicked projects, plus occasional
-                    Kickstarter news
-                  </label>
-                </div>
-                <div className="checkbox-div">
-                  <input type="checkbox" name="check_box1" id="checkbox2" />
-                  <label htmlFor="checkbox2">
-                    Contact me about participating in Kickstarter research
-                  </label>
-                </div>
                 <button type="submit" className="submit-btn">
-                  Create account
+                  Log in
                 </button>
               </form>
               <div className="terms-conditions">
-                By signing up, you agree to our Privacy Policy, Cookie Policy
-                and Terms of Use. Read more
+                Get notified when your friends back and launch projects. We'll
+                never post anything on Facebook without your permission. Read
+                more
               </div>
+            </div>
+            <div className="not-having-an-account">
+              New to Kickstarter? <Link to="/register">Sign up</Link>
             </div>
           </div>
         </div>
@@ -120,21 +105,10 @@ export const RegisterUser = () => {
       <Header />
       <div className="container">
         <div className="main-container">
-          <div className="container1">
-            Have an account? <Link to="/login">Log in</Link>
-          </div>
           <div className="container2">
-            <p>Sign up</p>
+            <p>Log in</p>
 
             <form action="" onSubmit={handleSubmit}>
-              <input
-                type="text"
-                placeholder="Name"
-                className="input-box"
-                name="name"
-                value={formData.name}
-                onChange={handleChange}
-              />
               <input
                 type="text"
                 placeholder="Email"
@@ -151,27 +125,17 @@ export const RegisterUser = () => {
                 value={formData.password}
                 onChange={handleChange}
               />
-              <div className="checkbox-div">
-                <input type="checkbox" name="check_box1" id="checkbox1" />
-                <label htmlFor="checkbox1">
-                  Send me a weekly mix of handpicked projects, plus occasional
-                  Kickstarter news
-                </label>
-              </div>
-              <div className="checkbox-div">
-                <input type="checkbox" name="check_box1" id="checkbox2" />
-                <label htmlFor="checkbox2">
-                  Contact me about participating in Kickstarter research
-                </label>
-              </div>
               <button type="submit" className="submit-btn">
-                Create account
+                Log in
               </button>
             </form>
             <div className="terms-conditions">
-              By signing up, you agree to our Privacy Policy, Cookie Policy and
-              Terms of Use. Read more
+              Get notified when your friends back and launch projects. We'll
+              never post anything on Facebook without your permission. Read more
             </div>
+          </div>
+          <div className="not-having-an-account">
+            New to Kickstarter? <Link to="/register">Sign up</Link>
           </div>
         </div>
       </div>
