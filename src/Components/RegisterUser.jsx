@@ -1,9 +1,9 @@
-import { useContext, useState } from "react";
+import {  useState } from "react";
 import "../RegisterUser.css";
 import { Link } from "react-router-dom";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
-import { ProgressContext } from "../context/ProgressContext";
+// import { ProgressContext } from "../context/ProgressContext";
 
 const initState = {
   name: "",
@@ -19,7 +19,7 @@ export const RegisterUser = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  const auth = useContext(ProgressContext);
+  // const auth = useContext(ProgressContext);
 
   const handleSubmit = async (e) => {
     e.preventDefault();

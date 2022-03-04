@@ -12,11 +12,11 @@ export const Steps = () => {
   const [select, setSelect] = useState(false);
   const [text, setText] = useState("");
   const [i, setI] = useState(1);
-  const [step1, setStep1] = useState(false);
+  // const [step1, setStep1] = useState(false);
   const [step2, setStep2] = useState(false);
   const [step3, setStep3] = useState(false);
   const [step4, setStep4] = useState(false);
-  const [step5, setStep5] = useState(false);
+  // const [step5, setStep5] = useState(false);
 
   const data = useContext(ProgressContext);
 
@@ -40,7 +40,7 @@ export const Steps = () => {
   };
 
   const handleCheck = () => {
-    console.log(step2, step3, step4, step5);
+    // console.log(step2, step3, step4, step5);
     if (step2 && step3 && step4) {
       setSelect(true);
     } else {

@@ -296,10 +296,10 @@ const Video = styled.div`
   }
 `;
 
-const Hr = styled.div`
-  border-bottom: 1px solid black;
-  margin: 4% auto;
-`;
+// const Hr = styled.div`
+//   border-bottom: 1px solid black;
+//   margin: 4% auto;
+// `;
 
 const Heading3 = styled.div`
   margin: 0px;
