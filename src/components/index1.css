@@ -1,0 +1,340 @@
+
+div#logo_wrapper{
+    width: 12%;
+}
+
+#logo_wrapper img{
+    width: 100%;
+}
+
+.body{
+    background-color:rgb(255, 255, 255);
+    color:white;
+}
+.nav{
+    background-color:rgb(255, 255, 255);
+    background-color: ;
+    padding-top:20px;
+    text-align:left;
+    height:30px;  
+    border:1px solid rgb(228, 224, 224);
+}
+hr{
+    background-color:rgb(255, 255, 255);
+    color:white;
+    font-size:10px;
+}
+.nav1 a{ 
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+h6{
+    padding-top:15px;
+    font-size:medium;
+    font-Family:verdana,sans-serif;
+    
+}
+span{
+    display: inline-block;
+    font-Family:verdana,sans-serif;
+}
+.re{
+    color:rgb(219, 218, 218);
+    font-size:20px;
+    margin-left:60px;
+}
+.re1{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size:15px;
+margin-left:70px;
+color:rgba(26, 24, 24, 0.815)
+}
+.re span{
+    color:rgba(26, 24, 24, 0.815);
+    font-size:15px;
+    margin-left:10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.pro h3{
+    text-align: left;
+    font-size:25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:12%
+
+}
+
+.project{
+    border:1px solid rgb(223, 219, 219);
+    height:200px;
+    width:70%;
+    margin-left: 12%;
+    font-Family:verdana,sans-serif;
+}
+.pro{
+    margin-bottom:30px;
+    text-align:center;
+}
+.s{
+    font-size:25px;
+    text-align: left;
+    margin-left:12%;
+}
+.pr{
+margin-top: 40px;
+font-size:22px;
+}
+.pr a{ 
+    text-decoration:underline;
+}
+.previe{ 
+    text-align: left;
+    font-size:15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:12%;
+    color: rgba(34, 30, 30, 0.849);
+}
+.pi img{
+    width:50px;
+    height:50px;
+    margin-top:20px
+}
+.previe a{ 
+    color:rgba(34, 30, 30, 0.849);
+}
+.previe img{
+    width:15px;
+    height:15px;
+    padding:1px
+}
+.artpro1{
+    font-size:25px
+}
+.artpro{
+    text-align: left;
+    font-size:15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:12%
+}
+.artpro p{
+    color: rgba(34, 30, 30, 0.849);
+}
+
+.btn{
+    margin: auto;
+    padding:10px;
+    width:150px;
+    height:30px;
+    background-color:green;
+    text-align:center;
+    font-size:20px;
+    border-radius:10px;
+    margin-top:40px
+}
+.hre{
+    margin: auto;
+    padding:10px;
+    height:30px;
+    text-align:center;
+    font-size:15px;
+    color:rgba(26, 24, 24, 0.815)
+}
+.hre a{ 
+    text-decoration:underline;
+}
+
+.review{
+    margin-left:12%;
+    border:1px solid rgb(235, 233, 233);
+    height:800px;
+    width:70%;
+    font-Family:verdana,sans-serif;
+}
+.projectover{
+    margin-left:12%;
+    padding:10px;
+    border:1px solid rgb(235, 233, 233);
+    height:450px;
+    width:70%;
+    font-Family:verdana,sans-serif;
+}
+.po{
+    background-color:ffffff;
+
+}
+.po a{ 
+    font-size:15px;
+    padding-left:60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgba(10, 8, 8, 0.952)
+}
+.po p{
+    font-size:13px;
+    padding-left:60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(180, 176, 176);
+}
+.over{ 
+padding-top: 20px;
+font-family:verdana,sans-serif;
+margin-left:12%;
+color:black;
+font-size: 18px;
+
+}
+.project-review{ 
+font-family:verdana,sans-serif;
+margin-right:29%;
+color:rgba(17, 17, 17, 0.932);
+border:1px solid rgb(218, 215, 215);
+height:100px;
+width:70%;
+margin-left:12%;
+background-color:rgb(255, 255, 255);
+}
+.review > div{
+    padding: 10px;
+}
+.la{ 
+    margin-left:60px;
+    font-family:verdana,sans-serif;
+    font-size: 18px;
+    color:black
+    
+}
+.al{ 
+    margin-left:60px;
+    font-family:verdana,sans-serif;
+    font-size: 15px;
+    color:rgb(170, 170, 170);
+
+}
+.sup{
+    border:1px solid rgb(228, 225, 225);
+    width:35%;
+    height:120px;
+    display: inline-block;
+    margin-left:2%;
+    background-color: rgb(255, 255, 255);
+    padding:20px
+}
+.a1{ 
+    margin-left:10%
+
+}
+a{ 
+    text-decoration:none;
+    color: rgba(15, 12, 12, 0.945)
+}
+.pa{
+    font-family:verdana,sans-serif;
+    font-size: 16px;
+    padding-left:60px;
+}
+.pa a{
+    padding-left:30px
+}
+hr{
+    color: hsl(195, 10%, 92%);
+}
+.pa1{
+    padding-left:60px;
+    color:rgb(170, 170, 170);
+}
+
+
+/* navbar */
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #037362;
+    transition: all 0.10s linear;
+}
+
+nav#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding: 1.7% 2%;
+    font-size: 14px;
+    line-height: 21px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+nav div#link_wrapper{
+    /* border: 1px solid blue; */
+    width: 13%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div#logo_wrapper{
+    width: 12%;
+}
+
+#logo_wrapper img{
+    width: 100%;
+}
+
+nav div#login_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid; */
+    width: 9%;
+}
+
+#login_wrapper #search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 50%;
+}
+
+.la img{
+    width:50px;
+    height:50px;
+    border-radius: 50px;
+}
+sup:hover{ 
+   background-color: green ;
+   text-shadow: #ffffff;
+}
+.lh{
+    height:100px;
+    width:70%;
+    border: 1px solid rgb(221, 218, 218);
+    margin-left:12%;
+    margin-top:10px;
+    background-color:#ffffff
+}
+.lh a{
+    text-align: left;
+    font-size:20px;
+    color:rgba(41, 37, 37, 0.795);
+    padding:10px;
+    margin-top:20px
+}
+.lh img{
+    width:20px;
+    height:20px;
+    margin-left:20px
+}
+.fot{
+    height:100px;
+    margin-top:20px
+}
+.fot span{
+    margin-left:12%;
+    color:rgba(43, 37, 37, 0.781);
+}
+.fot span a{
+    padding:10px
+}

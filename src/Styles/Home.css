@@ -1,31 +1,40 @@
 .cre {
     font-weight: 400;
-    font-size: 24px;
+    font-size: 36px;
     text-align: center;
 }
 .with {
-    font-weight: 300;
-    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+    font-size: 15px;
     text-align: center;
 }
 .box {
-    border-top: 1px solid black;
-    height: 40%;
-    width: 80%;
+    height: 120px;
+    width: 90%;
     margin: auto;
-    box-shadow: 1px 1px 1px 1px rgba(0.2, 0.2, 0.2, 0.2);
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 17%);
     display: grid;
     justify-content:"center";
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 33.3% 33.3% 33.4%;
 }
 
 .box div {
+    height: 100%;
+    border: 0.1rem solid #DCDEDD;
     justify-content:"center";
+    text-align: center;
 }
 .box h1 {
-    color: rgb(13, 114, 47);
+    color: #037362;
+    font-weight: 400;
+    margin-bottom: 0px;
 }
 .box h4 {
+    font: 14px;
+    color: gray;
+    padding: 0px;
+    margin: 0px;
     font-weight:400
 }
 
@@ -63,14 +72,17 @@ section#art{
 
 #arts_2{
     display: flex;
+    margin: auto;
     margin-top: 24px;
-    margin-left: 10%;
+    /* margin-left: 10%; */
+    width: 90%;
 }
 
 #arts_2 #arts_2_1{
     /* border: 1px solid red; */
     padding: 24px 60px 0 0;
     border-right: 1px solid #f0f0f0;
+    /* width: 100%; */
 }
 
 h2.head{
@@ -78,6 +90,10 @@ h2.head{
     line-height: 18px;
     color: #656969;
     font-weight: 700;
+}
+
+#arts_2 #arts_2_1 section{
+    width: 100%;
 }
 
 #arts_2 #arts_2_1 #hr{
@@ -118,6 +134,7 @@ h2.head{
 }
 
 #arts_2 #arts_2_2{
+    width: 80%;
     /* border: 1px solid blue; */
     padding: 30px 0 0 60px;
 }
@@ -247,7 +264,9 @@ h2.head{
 
 #carausel_section{
     border-bottom: 1px solid #f0f0f0;
-    padding: 22px 140px 110px 140px;
+    padding: 4% 0%;
+    width: 90%;
+    margin: auto;
 }
 
 #carausel_section #carausel_first{
@@ -411,7 +430,10 @@ div#homeStretch_section{
 
 div#portfolio_section{
     border-bottom: 1px solid #f0f0f0;
-    padding: 110px 140px 110px 140px;
+    /* padding: 110px 140px 110px 140px; */
+    padding: 4% 0%;
+    width: 90% !important;
+    margin: auto !important;
 }
 
 #portfolio_section #portfolio_wrapper{
@@ -490,7 +512,10 @@ div#portfolio_section{
 
 div#creatorsCorner_section{
     border-bottom: 1px solid #f0f0f0;
-    padding: 22px 140px 110px 140px;
+    /* padding: 22px 140px 110px 140px; */
+    padding: 4% 0%;
+    width: 90%;
+    margin: auto;
 }
 
 #creatorsCorner_section div#creators_first{
@@ -597,13 +622,13 @@ div#creatorsCorner_section{
     line-height: 18px;
     font-weight: 700;
     color: #656969;
-   margin-right: 72%;
+   margin-left: 5%;
 }
 #makeof {
     display: grid;
     grid-template-columns: 22% 22% 22% 22%;
     gap: 1%;
- margin-left: 10%;
+ margin-left: 5%;
 
 }
 #makeof div {
@@ -620,7 +645,9 @@ div#creatorsCorner_section{
 
 div#homeStretch_section{
     border-bottom: 1px solid #f0f0f0;
-    padding: 22px 140px 110px 140px;
+    padding: 4% 0%;
+    width: 90%;
+    margin: auto;
 }
 
 #homeStretch_section #homeStretch_first{

@@ -1,0 +1,27 @@
+nav#navbar{
+    /* border: 1px solid; */
+    padding: 1% 0;
+    border-top: 1px solid #F0F0F0;
+    border-bottom: 2px solid #F0F0F0;
+    
+}
+
+#navbar div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+    font-size: 16px;
+    line-height: 24px;
+    height: 30px;
+}
+
+#navbar div a{
+    color:gray;
+}
+
+#navbar div a:hover{
+    color: #034752;
+    border-bottom: 3px solid #034752;
+    transition: all 0.13s ease-in-out;
+}
